@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JOHN KENETH MANJARES</title>
+<meta name="description" content="Portfolio of a BSIT student and aspiring web developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(e){}</script>
+</head>
+<body class="home">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"></span> JOHN KENETH MANJARES</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li>
+      <a href="index.html" aria-current="page">Home</a></li>
+      <li>
+        <a href="about.html">About Me</a></li>
+        <li>
+          <a href="skills.html">Skills</a></li>
+          <li>
+            <a href="projects.html">Projects</a></li>
+            <li>
+              <a href="contact.html">Contact</a></li>
+            </ul>
+    <button class="theme-btn" id="themeBtn" aria-label="Switch light or dark mode">&#9680;</button>
+  </nav>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="greeting" id="welcome">Hello, welcome to my portfolio!</p>
+      <h1>Hi, I'm <span class="grad">JOHN KENETH MANJARES</span></h1>
+      <p class="role">BSIT Student | Aspiring Web Developer</p>
+      <p>I enjoy turning ideas into clean, usable web pages. That can help our society in many ways. This portfolio collects the activities I built from prelim to final. Feel free to explore!</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="projects.html">Explore My Projects</a>
+        <a class="btn btn-outline" href="contact.html">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="blob" aria-hidden="true"></div>
+      <img class="avatar" src="images/instagram.jpg" alt="Profile photo of JOHN KENETH MANJARES (replace instagram.jpg)">
+      <span class="chip c1" aria-hidden="true">HTML</span>
+      <span class="chip c2" aria-hidden="true">CSS</span>
+      <span class="chip c3" aria-hidden="true">JS</span>
+    </div>
+  </div>
+  <a class="scroll-hint" href="#highlights" aria-label="Scroll down"><span></span></a>
+</section>
+<section class="section" id="highlights">
+  <div class="container">
+    <h2>What you'll find here</h2>
+    <div class="grid grid-3">
+      <a class="card link-card" href="about.html"><h3>About Me</h3><p>My background, education, and goals.</p></a>
+      <a class="card link-card" href="skills.html"><h3>Skills</h3><p>Technical and personal strengths.</p></a>
+      <a class="card link-card" href="projects.html"><h3>Projects</h3><p>Activities from prelim to final.</p></a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><strong class="brand">JOHN KENETH MANJARES</strong><p>BSIT Student | Aspiring Web Developer</p>
+      <p class="muted">
+        <a href="https://github.com/kennpro13-dotcom">GitHub</a> &nbsp; 
+        <a href="https://www.linkedin.com/in/john-keneth-manjares-999056442/?isSelfProfile=true">LinkedIn</a> &nbsp; 
+        <a href="https://web.facebook.com/keneth.manjares.2025">Facebook</a></p></div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div><p>&copy; <span id="year">2026</span> JOHN KENETH MANJARES. All rights reserved.</p>
+      <p class="muted" id="clock" aria-live="off"></p></div>
+  </div>
+</footer>
+<button class="to-top" id="toTop" aria-label="Back to top">&uarr;</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects - JOHN KENETH MANJARES</title>
+<meta name="description" content="Activities from prelim to final.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(e){}</script>
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"></span> JOHN KENETH MANJARES</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html" aria-current="page">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="theme-btn" id="themeBtn" aria-label="Switch light or dark mode">&#9680;</button>
+  </nav>
+</header>
+<main id="main">
+
+<section class="page-head">
+  <div class="container">
+    <h1>Projects</h1>
+    <p>Activities I completed from prelim to final.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="filters" role="group" aria-label="Filter projects by category">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="Web Basics">Web Basics</button>
+      <button class="filter" data-filter="Layout">Layout</button>
+      <button class="filter" data-filter="Portfolio">Portfolio</button>
+    </div>
+
+    <div class="grid grid-3" id="projectGrid">
+
+      <article class="card project" data-category="Web Basics">
+        <img src="images/project-1.jpg" alt="Thumbnail for Prelim Activity" loading="lazy">
+        <div class="project-body">
+          <span class="tag">Web Basics</span>
+          <h3>Prelim Activity</h3>
+          <p class="desc">My first web page, built with HTML. It covers headings, paragraphs, lists, links, and images.</p>
+          <a class="btn btn-primary btn-sm" href="https://kennpro13-dotcom.github.io/pre.act/">View Project</a>
+        </div>
+      </article>
+
+      <article class="card project" data-category="Layout">
+        <img src="images/project-2.jpg" alt="Thumbnail for Midterm Activity" loading="lazy">
+        <div class="project-body">
+          <span class="tag">Layout</span>
+          <h3>Midterm Activity</h3>
+          <p class="desc">A styled, responsive page made with HTML and CSS. It uses colors, spacing, and a clean layout that fits any screen.</p>
+          <a class="btn btn-primary btn-sm" href="https://kennpro13-dotcom.github.io/mid.act/">View Project</a>
+        </div>
+      </article>
+
+      <article class="card project" data-category="Portfolio">
+        <img src="images/project-4.jpg" alt="Thumbnail for Final Activity" loading="lazy">
+        <div class="project-body">
+          <span class="tag">Portfolio</span>
+          <h3>Final Activity</h3>
+          <p class="desc">This personal portfolio website. It has five pages, a light/dark theme, a project filter, and a contact form.</p>
+          <a class="btn btn-primary btn-sm" href="index.html">View Project</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><strong class="brand">JOHN KENETH MANJARES</strong><p>BSIT Student | Aspiring Web Developer</p>
+      <p class="muted">
+        <a href="https://github.com/kennpro13-dotcom">GitHub</a> &nbsp;
+        <a href="https://www.linkedin.com/in/john-keneth-manjares-999056442/?isSelfProfile=true">LinkedIn</a> &nbsp;
+        <a href="https://web.facebook.com/keneth.manjares.2025">Facebook</a></p>
+    </div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div><p>&copy; <span id="year">2026</span> JOHN KENETH MANJARES. All rights reserved.</p>
+      <p class="muted" id="clock" aria-live="off"></p></div>
+  </div>
+</footer>
+<button class="to-top" id="toTop" aria-label="Back to top">&uarr;</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="js/script.js"></script>
+</body>
+</html>

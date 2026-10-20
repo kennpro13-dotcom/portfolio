@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact - JOHN KENETH MANJARES</title>
+<meta name="description" content="Get in touch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(e){}</script>
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"></span> JOHN KENETH MANJARES</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li>
+        <a href="index.html">Home</a></li>
+        <li>
+          <a href="about.html">About Me</a></li>
+          <li>
+            <a href="skills.html">Skills</a></li>
+            <li>
+              <a href="projects.html">Projects</a></li>
+              <li>
+                <a href="contact.html" aria-current="page">Contact</a>
+              </li>
+            </ul>
+    <button class="theme-btn" id="themeBtn" aria-label="Switch light or dark mode">&#9680;</button>
+  </nav>
+</header>
+<main id="main">
+<section class="page-head">
+  <div class="container">
+    <h1>Contact Me</h1>
+    <p>Have a question or an opportunity? I'd love to hear from you.</p></div></section>
+<section class="section">
+  <div class="container contact-grid">
+  <div>
+    <h2>Contact Information</h2>
+    <ul class="contact-list">
+      <li>
+        <span class="icon" aria-hidden="true">&#9993;</span>
+        <div>
+          <strong>Email</strong>
+          <br>
+          <a href="mailto:johnkenethmanjares9@gmail.com">johnkenethmanjares9@gmail.com</a>
+        </div>
+      </li>
+      <li>
+        <span class="icon" aria-hidden="true">&#9742;</span>
+        <div>
+          <strong>Phone</strong>
+          <br>
+          <a href="tel:+639634195662">+63 963 419 5662</a>
+        </div>
+      </li>
+      <li>
+        <span class="icon" aria-hidden="true">&#127760;</span>
+        <div>
+          <strong>Profiles</strong>
+          <br>
+          <a href="https://github.com/kennpro13-dotcom">GitHub</a> &bull; 
+          <a href="https://www.linkedin.com/in/john-keneth-manjares-999056442/?isSelfProfile=true">LinkedIn</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <form class="card form" id="contactForm" novalidate>
+    <h2>Send a message</h2>
+    <label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required>
+    <p class="err" id="err-name"></p>
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" autocomplete="email" required>
+    <p class="err" id="err-email"></p>
+    <label for="subject">Subject</label><input id="subject" name="subject" type="text" required>
+    <p class="err" id="err-subject"></p>
+    <label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea>
+    <p class="err" id="err-message"></p>
+    <button class="btn btn-primary" type="submit">Send Message</button>
+    <p class="ok" id="formOk" role="status"></p>
+  </form>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><strong class="brand">JOHN KENETH MANJARES</strong><p>BSIT Student | Aspiring Web Developer</p>
+      <p class="muted"><!-- Replace # with your real profile URLs -->
+        <a href="https://github.com/kennpro13-dotcom" data-placeholder>GitHub</a> &nbsp; 
+        <a href="https://www.linkedin.com/in/john-keneth-manjares-999056442/?isSelfProfile=true" data-placeholder>LinkedIn</a> &nbsp; 
+        <a href="https://web.facebook.com/keneth.manjares.2025" data-placeholder>Facebook</a></p></div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div><p>&copy; <span id="year">2026</span> JOHN KENETH MANJARES. All rights reserved.</p>
+      <p class="muted" id="clock" aria-live="off"></p></div>
+  </div>
+</footer>
+<button class="to-top" id="toTop" aria-label="Back to top">&uarr;</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="js/script.js"></script>
+</body>
+</html>
